@@ -7,7 +7,7 @@ Artist: [Nahaki](https://www.pixiv.net/en/users/9685977)
 - EFI can be used for both USB Installer and booting.
 - You can use Clover Configurator for configure config.plist file.
 
-## Hardware configuration
+## System Overview
 * Dell G7 7588
   - CPU: i7-8750H
   - RAM: 2 x 8GB DDR4 (upgraded)
