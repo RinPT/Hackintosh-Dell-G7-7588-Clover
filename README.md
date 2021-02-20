@@ -1,6 +1,7 @@
 # Hackintosh-Dell-G7-7588-Clover
 ## Overview
 ![screenshot](https://cdn.discordapp.com/attachments/780671387878031360/812702686708236288/87855751_p1.png)
+Artist: ![Nahaki](https://www.pixiv.net/en/users/9685977)
 - macOS: Both Catalina and Big Sur latest version.
 - Bootloader: Clover 5130
 - EFI can be used for both USB Installer and booting.
