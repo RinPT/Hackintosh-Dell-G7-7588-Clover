@@ -1,8 +1,7 @@
 # Hackintosh-Dell-G7-7588-Clover
 ## Overview
-![screenshot](https://cdn.discordapp.com/attachments/780671387878031360/812702686708236288/87855751_p1.png)
-Artist: [Nahaki](https://www.pixiv.net/en/users/9685977)
-- macOS: Both Catalina and Big Sur latest version.
+![screenshot](https://cdn.discordapp.com/attachments/780671387878031360/813705461424717824/Screen_Shot_2021-02-23_at_16.33.24.png)
+- macOS: Big Sur latest version (11.2.1)
 - Bootloader: Clover 5130
 - EFI can be used for both USB Installer and booting.
 - You can use Clover Configurator for configure config.plist file.
@@ -58,7 +57,7 @@ The default BIOS DVMT pre-alloc value of `64MB` is sufficient and does not need 
 - You should get a new valid serial number and other SMBIOS related data for iMessage/Facetime to work, with the SMBIOS is `MacBookPro15,1`. You can generate new one in SMBIOS section.
 
 ## Audio
-* For ALC256, I use id `56`. Injected in `Devices` section.
+* For ALC256 on this Dell, I use `layout-id = <56>`.
 * For fixing 3.5mm jack, please go to [Post-Install](https://github.com/rex-lapis/Hackintosh-Dell-G7-7588-Clover#post-install) for more information.
 
 ## USB-C
