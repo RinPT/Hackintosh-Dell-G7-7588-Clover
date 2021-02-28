@@ -77,7 +77,7 @@ This section talks about configuring the EFI folder for the hardware.
 * If you have DW1820a card, it is worked too. But trust me, you don't want to use that card! The Wi-Fi speed is a bit slower and has problems with some 5GHz networks. Bluetooth sometimes has issues too.
 
 ### Graphic Display
-* Integrated Intel UHD Graphics 630 support is handled by WhateverGreen, and configured in the `PciRoot(0x0)/Pci(0x2,0x0)` section of `config.plist`.
+* Integrated Intel UHD Graphics 630 support is handled by WhateverGreen, and configured in the `Graphics` section of `config.plist`.
 The NVIDIA GPU is not supported so it is disabled in SSDT.
 The default BIOS DVMT pre-alloc value of `64MB` is sufficient and does not need to be changed.
 #### Enabling acceleration
