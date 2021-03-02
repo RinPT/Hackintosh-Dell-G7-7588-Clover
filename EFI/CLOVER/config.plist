@@ -813,71 +813,68 @@
 	</dict>
 	<key>RtVariables</key>
 	<dict>
-		<key>CsrActiveConfig</key>
-		<string>0x00</string>
-		<key>MLB</key>
-		<string>C02921207CDJP4FUE</string>
 		<key>ROM</key>
 		<string>UseMacAddr0</string>
 		<key>BooterConfig</key>
 		<string>0x28</string>
+		<key>CsrActiveConfig</key>
+		<string>0x00</string>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
-		<key>BiosVersion</key>
-		<string>MBP151.88Z.F000.B00.2101062035</string>
-		<key>Family</key>
-		<string>MacBook Pro</string>
-		<key>BoardManufacturer</key>
-		<string>Apple Inc.</string>
-		<key>#LocationInChassis</key>
-		<string>MLB</string>
-		<key>#BiosVendor</key>
-		<string>Apple Inc.</string>
-		<key>LocationInChassis</key>
-		<string>Part Component</string>
-		<key>#Mobile</key>
-		<true/>
-		<key>#ChassisType</key>
-		<integer>16</integer>
-		<key>#NoRomInfo</key>
-		<true/>
-		<key>BoardVersion</key>
-		<string>MacBookPro15,1</string>
-		<key>ProductName</key>
-		<string>MacBookPro15,1</string>
-		<key>#EfiVersion</key>
-		<string>288.0.0.0.0</string>
-		<key>#BoardVersion</key>
-		<string>Proto1</string>
-		<key>Version</key>
-		<string>1.0</string>
+		<key>#Slots</key>
+		<array>
+			<dict>
+				<key>ID</key>
+				<integer>1</integer>
+				<key>Name</key>
+				<string>PCIe Slot 0</string>
+				<key>Type</key>
+				<integer>16</integer>
+				<key>Device</key>
+				<string>ATI</string>
+			</dict>
+			<dict>
+				<key>ID</key>
+				<integer>0</integer>
+				<key>Name</key>
+				<string>Airport</string>
+				<key>Type</key>
+				<integer>1</integer>
+				<key>Device</key>
+				<string>WIFI</string>
+			</dict>
+		</array>
 		<key>#BiosVersion</key>
 		<string>IM131.88Z.F000.B00.1907241303</string>
-		<key>#Trust</key>
-		<true/>
-		<key>BiosReleaseDate</key>
-		<string>01/06/2021</string>
-		<key>#BoardType</key>
-		<integer>10</integer>
-		<key>FirmwareFeatures</key>
-		<string>0xFD8FF426</string>
 		<key>#SerialNumber</key>
 		<string>C02JBSAMDNCW</string>
-		<key>#MemoryRank</key>
-		<integer>2</integer>
-		<key>Manufacturer</key>
-		<string>Apple Inc.</string>
-		<key>#BoardManufacturer</key>
-		<string>Apple Inc.</string>
-		<key>#ProductName</key>
-		<string>iMac13,2</string>
-		<key>#ChassisAssetTag</key>
-		<string>Desktop</string>
 		<key>#Family</key>
 		<string>iMac</string>
-		<key>#Board-ID</key>
-		<string>Mac-FC02E91DDD3FA6A4</string>
+		<key>#ChassisAssetTag</key>
+		<string>Desktop</string>
+		<key>#MemoryRank</key>
+		<integer>2</integer>
+		<key>#BiosReleaseDate</key>
+		<string>05/03/10</string>
+		<key>#FirmwareFeatures</key>
+		<string>0xC0001403</string>
+		<key>#Trust</key>
+		<true/>
+		<key>#BiosVendor</key>
+		<string>Apple Inc.</string>
+		<key>#BoardSerialNumber</key>
+		<string>C0225060SAMF651AX</string>
+		<key>#ChassisType</key>
+		<integer>16</integer>
+		<key>#Version</key>
+		<string>1.0</string>
+		<key>#BoardManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>#BoardType</key>
+		<integer>10</integer>
+		<key>#ProductName</key>
+		<string>iMac13,2</string>
 		<key>#Memory</key>
 		<dict>
 			<key>Modules</key>
@@ -920,67 +917,34 @@
 			<key>SlotCount</key>
 			<integer>4</integer>
 		</dict>
-		<key>#BoardSerialNumber</key>
-		<string>C0225060SAMF651AX</string>
 		<key>Mobile</key>
 		<true/>
-		<key>#FirmwareFeatures</key>
-		<string>0xC0001403</string>
-		<key>ChassisAssetTag</key>
-		<string>Asset Tag#</string>
-		<key>#ChassisManufacturer</key>
-		<string>Apple Inc.</string>
-		<key>ChassisType</key>
-		<string>0x9</string>
-		<key>#Version</key>
-		<string>1.0</string>
+		<key>#LocationInChassis</key>
+		<string>MLB</string>
+		<key>#NoRomInfo</key>
+		<true/>
+		<key>ProductName</key>
+		<string>MacBookPro15,1</string>
+		<key>#EfiVersion</key>
+		<string>288.0.0.0.0</string>
 		<key>#FirmwareFeaturesMask</key>
 		<string>0xFFFFFFFF</string>
-		<key>FirmwareFeaturesMask</key>
-		<string>0xFF9FFF3F</string>
-		<key>#Slots</key>
-		<array>
-			<dict>
-				<key>ID</key>
-				<integer>1</integer>
-				<key>Name</key>
-				<string>PCIe Slot 0</string>
-				<key>Type</key>
-				<integer>16</integer>
-				<key>Device</key>
-				<string>ATI</string>
-			</dict>
-			<dict>
-				<key>ID</key>
-				<integer>0</integer>
-				<key>Name</key>
-				<string>Airport</string>
-				<key>Type</key>
-				<integer>1</integer>
-				<key>Device</key>
-				<string>WIFI</string>
-			</dict>
-		</array>
-		<key>BiosVendor</key>
-		<string>Apple Inc.</string>
-		<key>ChassisManufacturer</key>
-		<string>Apple Inc.</string>
-		<key>#SmbiosVersion</key>
-		<string>0x0300</string>
-		<key>#SmUUID</key>
-		<string>00000000-0000-1000-8000-010203040506</string>
-		<key>BoardType</key>
-		<integer>10</integer>
 		<key>#PlatformFeature</key>
 		<string>0x00</string>
-		<key>EfiVersion</key>
-		<string>1554.80.3.0.0</string>
-		<key>Board-ID</key>
-		<string>Mac-937A206F2EE63C01</string>
-		<key>PlatformFeature</key>
-		<string>0x32</string>
-		<key>#BiosReleaseDate</key>
-		<string>05/03/10</string>
+		<key>#Board-ID</key>
+		<string>Mac-FC02E91DDD3FA6A4</string>
+		<key>#BoardVersion</key>
+		<string>Proto1</string>
+		<key>#SmbiosVersion</key>
+		<string>0x0300</string>
+		<key>Version</key>
+		<string>1.0</string>
+		<key>#Mobile</key>
+		<true/>
+		<key>#ChassisManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>#SmUUID</key>
+		<string>00000000-0000-1000-8000-010203040506</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
